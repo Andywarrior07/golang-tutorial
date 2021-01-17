@@ -29,7 +29,7 @@ func TestSaveToDeckAndNewDeckTestFromFile(t *testing.T) {
 
 	loadedDeck := newDeckFromFile("_decktesting")
 
-	if len(loadedDeck) != 16 {
+	if len(loadedDeck) != 	 {
 		t.Errorf("Expected 16 cards in deck, got %v", len(loadedDeck))
 	}
 
